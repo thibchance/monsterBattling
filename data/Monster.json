@@ -1,0 +1,40 @@
+{
+ "windows" : 
+	{
+		"width" : 700,
+		"height" : 300,
+		"framerateLimit" : 60,
+		"speed" : 5
+	},
+ "monsters":	
+	[
+		{
+			"HP" : 10,
+			"AP" : 6,
+			"DP" : 2,
+			"S" : 3,
+			"Race" : 3,
+			"position" :
+			{
+				"x" : 100,
+				"y" : 100
+			},
+			"texture":"data/image/Orc.png",
+			"font":"data/Dopestyle.ftt"
+		},
+		{
+			"HP" : 12,
+			"AP" : 4,
+			"DP" : 3,
+			"S" : 10,
+			"Race" : 2,
+			"position" :
+			{
+				"x" : 500,
+				"y" : 100
+			},
+			"texture":"data/image/Dragon_1.png",
+			"font":"data/Dopestyle.ftt"
+		}
+	]
+}      
